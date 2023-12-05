@@ -15,3 +15,20 @@ You might want to look up these two packages:
 https://pypi.org/project/Pillow/
 
 https://pyautogui.readthedocs.io/en/latest/
+
+
+pyautogui.size() # get screen size
+
+pyautogui.positon() # get mouse position
+
+pyautogui.move(100,100, 5) # move the mouse(time it takes to move)
+
+pyautogui.moveRel(100,100,3) #movw the mouse relative to its current_time positon
+
+pyautogui.click(100,100,3,3 button='up') # click
+
+# spam bot
+pyautogui.write ('up')
+
+
+pyautogui.press('space')
